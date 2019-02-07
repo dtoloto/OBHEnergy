@@ -23,7 +23,6 @@ html,body{
     box-shadow: var(--box-shadow);
 }
 
-
 .logo{
     height: 100px;
 }
@@ -240,7 +239,16 @@ footer a:hover{
     width: 30%;
 }
 
-@media (max-width: 766px) {
+
+@media (max-width: 960px) {
+
+    .menu{
+        padding: 5%;
+        background-color: #fff !important;
+    }
+
+}
+@media (max-width: 720px) {
     .col-asset-1, .col-asset-2{
         text-align: center;
     }
@@ -248,4 +256,5 @@ footer a:hover{
     .col-article{
         margin: 7% 0;
     }
+
 }
