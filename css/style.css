@@ -148,8 +148,11 @@ section{
     font-weight: bold;
 }
 
-.card-hr{
+.card-hr-blue{
     border-color: var(--blue);
+}
+.card-hr-green{
+    border-color: var(--green);
 }
 
 .img-brands{
@@ -237,6 +240,19 @@ footer a:hover{
 
 .footer-logo{
     width: 30%;
+}
+
+.btn{
+    border-radius: 0;
+    border: 0;
+}
+
+.btn-primary{
+    background-color: var(--blue);
+}
+
+.btn-success{
+    background-color: var(--green);
 }
 
 
